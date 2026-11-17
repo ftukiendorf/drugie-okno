@@ -4,7 +4,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="okno.MainWindow"
-        Title="okno">
+        Title="okno"
+        Background="Green">
     <TextBlock Text="Żelbeton to kompozyt betonu i stali zbrojeniowej. Beton przenosi ściskanie, a pręty stalowe rozciąganie, dzięki czemu elementy konstrukcyjne — belki, płyty i słupy — są wytrzymałe i trwałe. six seven"
                TextWrapping="Wrap"
                TextAlignment="Center"
