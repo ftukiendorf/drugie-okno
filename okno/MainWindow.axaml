@@ -6,9 +6,9 @@
         x:Class="okno.MainWindow"
         Title="Warsztat"
         Width="800"
-        Height="520"
+        Height="620"
         MinWidth="420"
-        MinHeight="360"
+        MinHeight="480"
         WindowStartupLocation="CenterScreen">
     <Window.Background>
         <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%">
@@ -47,6 +47,30 @@
        \ '-' /
        /`"""`\
       /       \</TextBlock>
+            <TextBlock x:Name="TimeText"
+                       Text="00:00.00"
+                       FontFamily="Cascadia Mono, Consolas, Courier New"
+                       FontSize="40"
+                       FontWeight="SemiBold"
+                       Foreground="#143D2C"
+                       HorizontalAlignment="Center" />
+            <StackPanel Orientation="Horizontal" Spacing="12" HorizontalAlignment="Center">
+                <Button x:Name="StartPauseButton"
+                        Content="Start"
+                        Click="OnStartPauseClick"
+                        MinWidth="110"
+                        Padding="16,8"
+                        Background="#1F6B45"
+                        Foreground="White"
+                        CornerRadius="8" />
+                <Button Content="Reset"
+                        Click="OnResetClick"
+                        MinWidth="110"
+                        Padding="16,8"
+                        Background="#E4F2E8"
+                        Foreground="#143D2C"
+                        CornerRadius="8" />
+            </StackPanel>
         </StackPanel>
     </Border>
 </Window>
