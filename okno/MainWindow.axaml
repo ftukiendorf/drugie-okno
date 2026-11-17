@@ -6,10 +6,14 @@
         x:Class="okno.MainWindow"
         Title="okno"
         Background="Green">
-    <TextBlock Text="Żelbeton to kompozyt betonu i stali zbrojeniowej. Beton przenosi ściskanie, a pręty stalowe rozciąganie, dzięki czemu elementy konstrukcyjne — belki, płyty i słupy — są wytrzymałe i trwałe. six seven"
-               TextWrapping="Wrap"
-               TextAlignment="Center"
+    <TextBlock xml:space="preserve"
+               FontFamily="Consolas, Courier New"
                HorizontalAlignment="Center"
-               VerticalAlignment="Center"
-               Margin="40" />
+               VerticalAlignment="Center">        .-"-.
+      _/.-.-.\_
+     ( ( o o ) )
+      |/  "  \|
+       \ '-' /
+       /`"""`\
+      /       \</TextBlock>
 </Window>
