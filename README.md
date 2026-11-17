@@ -7,3 +7,4 @@
 7. stoper
 8. smierc obj and bin
 9. dodano readme.md
+10. edited readme.md
