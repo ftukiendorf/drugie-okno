@@ -2,18 +2,51 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="520"
         x:Class="okno.MainWindow"
-        Title="okno"
-        Background="Green">
-    <TextBlock xml:space="preserve"
-               FontFamily="Consolas, Courier New"
-               HorizontalAlignment="Center"
-               VerticalAlignment="Center">        .-"-.
+        Title="Warsztat"
+        Width="800"
+        Height="520"
+        MinWidth="420"
+        MinHeight="360"
+        WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%">
+            <GradientStop Color="#123D2A" Offset="0" />
+            <GradientStop Color="#1F6B45" Offset="0.55" />
+            <GradientStop Color="#7DCEA0" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Border Background="#F6FBF7"
+            CornerRadius="20"
+            Padding="40,32"
+            Margin="36"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            BoxShadow="0 18 40 0 #4D000000">
+        <StackPanel Spacing="18" HorizontalAlignment="Center">
+            <TextBlock Text="Warsztat"
+                       FontSize="28"
+                       FontWeight="SemiBold"
+                       Foreground="#143D2C"
+                       HorizontalAlignment="Center" />
+            <Border Height="2"
+                    Width="72"
+                    Background="#2D8A5E"
+                    CornerRadius="1"
+                    HorizontalAlignment="Center" />
+            <TextBlock FontFamily="Cascadia Mono, Consolas, Courier New"
+                       FontSize="20"
+                       Foreground="#1B4332"
+                       HorizontalAlignment="Center"
+                       xml:space="preserve">        .-"-.
       _/.-.-.\_
      ( ( o o ) )
       |/  "  \|
        \ '-' /
        /`"""`\
       /       \</TextBlock>
+        </StackPanel>
+    </Border>
 </Window>
